@@ -19,9 +19,11 @@ h1 {
 }
 h2 {
   margin: 10px 0px;
-  font-size: 32px;
+  font-family: Bitter, serif;
+  font-size: 71px;
   line-height: 36px;
   font-weight: 700;
+  text-align: center;
 }
 h3 {
   margin: 10px 0px;
@@ -171,6 +173,9 @@ p {
     box-shadow: none;
     line-height: 73px;
   }
+  h2 {
+    line-height: 55px;
+  }
 }
 @media (max-width: 767px) {
   h1 {
@@ -179,6 +184,7 @@ p {
 }
 @media (max-width: 479px) {
   body {
+    margin-top: -45px;
     line-height: 20px;
   }
   h1 {
@@ -190,22 +196,32 @@ p {
     text-shadow: black 4px 4px 4px;
   }
   h2 {
-    margin-top: 32px;
+    margin-top: -14px;
+    margin-bottom: -7px;
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 0px;
     font-size: 33px;
+    line-height: 27px;
     text-align: center;
     text-shadow: black 1px 1px 6px;
   }
   h3 {
+    margin-top: -65px;
+    margin-bottom: -15px;
+    padding-top: 0px;
     text-shadow: black 1px 1px 2px;
+  }
+  h4 {
+    margin-top: 57px;
+    margin-left: -53px;
+    text-shadow: black 1px 1px 6px;
   }
   .sign-in-section {
     margin-top: -1px;
   }
   .bg {
-    padding-top: 272px;
+    padding-top: 224px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
   }
@@ -241,9 +257,37 @@ p {
     font-size: 27px;
   }
   .homeicon {
-    margin-top: 13px;
+    margin-top: -1px;
   }
   .icon-block {
     margin-top: 15px;
+  }
+  .profile {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+  ._2nd-level-home {
+    margin-top: -1px;
+    margin-bottom: 76px;
+  }
+  .navbar {
+    margin-top: 65px;
+    background-color: #354b5e;
+    box-shadow: black 0px 0px 13px 0px;
+  }
+  .testing {
+    margin-top: 54px;
+  }
+  .test {
+    margin-top: 57px;
+  }
+  .important {
+    margin-top: 12px;
+    font-family: Bitter, serif;
+    font-weight: 700;
+  }
+  .residents {
+    margin-top: -35px;
   }
 }
