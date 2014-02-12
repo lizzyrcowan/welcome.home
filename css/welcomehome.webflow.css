@@ -1,0 +1,293 @@
+body {
+  background-color: #d74b4b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  display: block;
+  margin: -114px auto 10px;
+  padding-top: 0px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: black 4px 4px 6px;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Bitter, serif;
+  font-size: 71px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+h3 {
+  margin: 10px 0px;
+  background-color: rgba(220, 221, 216, 0.34);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: block;
+  margin: -123px auto 3px;
+  padding: 6px 15px 15px;
+  border: 2px solid #354b5e;
+  border-radius: 7px;
+  background-color: #d74b4b;
+  box-shadow: black 0px 0px 6px -1px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: black 1px 1px 0px;
+}
+.sign-in-section {
+  margin-top: 0px;
+  padding-top: 35px;
+  border: 4px solid #354b5e;
+  border-radius: 4px;
+  background-color: #354b5e;
+}
+.sign-in-label {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 23px;
+  margin-left: auto;
+  font-family: Bitter, serif;
+  font-size: 28px;
+  text-align: center;
+  text-shadow: black 1px 1px 6px;
+}
+.submit-button {
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 118px;
+  padding-left: 118px;
+  border: 1px solid #354b5e;
+  border-radius: 7px;
+  background-color: #d74b4b;
+  box-shadow: black 0px 0px 3px 0px;
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  text-shadow: black 1px 1px 0px;
+}
+.title {
+  margin-top: -2px;
+  padding-top: 0px;
+}
+.bg {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 338px;
+  padding-bottom: 0px;
+  background-image: url('../images/windows.jpg');
+  background-position: 0% 52%;
+  background-size: cover;
+}
+.register-section {
+  margin-top: -14px;
+  margin-bottom: -64px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #354b5e;
+}
+.register-container {
+  padding-top: 134px;
+  background-color: #354b5e;
+}
+.top-panel {
+  margin-top: -1px;
+  padding-top: 47px;
+  padding-bottom: 7px;
+  background-color: #354b5e;
+}
+.registration {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text {
+  font-family: Bitter, serif;
+  font-size: 35px;
+  line-height: 39px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: black 1px 1px 2px;
+}
+.facebook {
+  padding-top: 9px;
+  text-align: center;
+}
+.welcome {
+  font-family: Bitter, serif;
+  font-size: 45px;
+  text-shadow: black 1px 1px 6px;
+}
+.user {
+  font-family: Bitter, serif;
+  font-size: 47px;
+  text-shadow: black 1px 1px 6px;
+}
+.homeicon {
+  margin-top: 15px;
+}
+@media (max-width: 991px) {
+  body {
+    margin-top: -33px;
+  }
+  h1 {
+    height: 88px;
+    margin-top: -159px;
+    box-shadow: none;
+    line-height: 73px;
+  }
+  h2 {
+    line-height: 55px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    box-shadow: none;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    margin-top: -45px;
+    line-height: 20px;
+  }
+  h1 {
+    margin-top: -160px;
+    box-shadow: none;
+    font-family: Bitter, serif;
+    font-size: 65px;
+    line-height: 56px;
+    text-shadow: black 4px 4px 4px;
+  }
+  h2 {
+    margin-top: -14px;
+    margin-bottom: -7px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    font-size: 33px;
+    line-height: 27px;
+    text-align: center;
+    text-shadow: black 1px 1px 6px;
+  }
+  h3 {
+    margin-top: -65px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    text-shadow: black 1px 1px 2px;
+  }
+  h4 {
+    margin-top: 57px;
+    margin-left: -53px;
+    text-shadow: black 1px 1px 6px;
+  }
+  .sign-in-section {
+    margin-top: -1px;
+  }
+  .bg {
+    padding-top: 224px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .register-section {
+    margin-bottom: -31px;
+  }
+  .register-container {
+    padding-top: 146px;
+    padding-bottom: 0px;
+  }
+  .top-panel {
+    margin-bottom: -1px;
+    padding-bottom: 0px;
+  }
+  .text {
+    font-family: Bitter, serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: black 1px 1px 2px;
+  }
+  .welcome {
+    margin-top: -2px;
+    margin-bottom: -9px;
+    padding-top: 21px;
+    padding-bottom: 0px;
+    font-size: 19px;
+    text-align: center;
+  }
+  .user {
+    margin-top: 19px;
+    font-size: 27px;
+  }
+  .homeicon {
+    margin-top: -1px;
+  }
+  .icon-block {
+    margin-top: 15px;
+  }
+  .profile {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+  }
+  ._2nd-level-home {
+    margin-top: -1px;
+    margin-bottom: 76px;
+  }
+  .navbar {
+    margin-top: 65px;
+    background-color: #354b5e;
+    box-shadow: black 0px 0px 13px 0px;
+  }
+  .testing {
+    margin-top: 54px;
+  }
+  .test {
+    margin-top: 57px;
+  }
+  .important {
+    margin-top: 12px;
+    font-family: Bitter, serif;
+    font-weight: 700;
+  }
+  .residents {
+    margin-top: -35px;
+  }
+}
