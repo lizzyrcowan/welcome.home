@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Fri Feb 14 2014 18:34:36 GMT+0000 (UTC) -->
+<!-- Last Published: Fri Feb 14 2014 18:34:37 GMT+0000 (UTC) -->
 <html data-wf-site="52f365c25d8eed2b6b000a8d">
 <head>
   <meta charset="utf-8">
-  <title>WelcomeHome - whiteboard</title>
+  <title>WelcomeHome - Pay</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/webflow.css">
@@ -23,21 +23,74 @@
   <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
   <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
 </head>
-<body>
-  <div class="head-container" id="whiteboard">
-    <div class="head-text">Whiteboard</div>
-  </div>
-  <div class="whiteboard" id="whiteboard">
-    <div class="w-embed w-iframe">
-      <iframe src="http://www.twiddla.com/api/start.aspx?sessionid=7&amp;hide=chat,bottomtray,url" frameborder="0" width="640" height="400" style="border:solid 1px #555;"></iframe>
+<body class="payment">
+  <div>
+    <div class="head-container" id="whiteboard">
+      <div class="head-text">Payment</div>
     </div>
   </div>
-  <div class="w-nav navbar-whiteboard" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
+  <div class="w-row row">
+    <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 pay-button"><a class="button" href="#">Pay</a>
+    </div>
+    <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 charge"><a class="button" href="#">Charge</a>
+    </div>
+    <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4 history"><a class="button" href="#">Archives</a>
+    </div>
+  </div>
+  <div class="w-form">
+    <form name="email-form" data-name="Email Form">
+      <select class="w-select resident-1" name="dropdown">
+        <option value="">Lizzy Cowan</option>
+        <option value="First">First Choice</option>
+        <option value="Second">Second Choice</option>
+        <option value="Third">Third Choice</option>
+      </select>
+    </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
+  </div>
+  <div class="w-form">
+    <form name="email-form" data-name="Email Form">
+      <select class="w-select" name="dropdown">
+        <option value="">Byron Inocencio</option>
+        <option value="First">First Choice</option>
+        <option value="Second">Second Choice</option>
+        <option value="Third">Third Choice</option>
+      </select>
+    </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
+  </div>
+  <div class="w-form">
+    <form name="email-form" data-name="Email Form">
+      <select class="w-select" name="dropdown">
+        <option value="">Ryan Chan</option>
+        <option value="First">First Choice</option>
+        <option value="Second">Second Choice</option>
+        <option value="Third">Third Choice</option>
+      </select>
+    </form>
+    <div class="w-form-done">
+      <p>Thank you! Your submission has been received!</p>
+    </div>
+    <div class="w-form-fail">
+      <p>Oops! Something went wrong while submitting the form :(</p>
+    </div>
+  </div>
+  <div class="w-nav navbar" data-collapse="all" data-animation="default" data-duration="400" data-contain="1">
     <div class="w-container">
       <div class="w-row">
         <div class="w-col w-col-3 w-col-tiny-3">
           <div>
-            <a class="w-inline-block navicon" href="homerenew.html">
+            <a class="w-inline-block navicon" href="home.html">
               <img src="images/1392373919_15.png" alt="52fdb3a2bfa4c1423f0002f5_1392373919_15.png">
             </a>
           </div>
